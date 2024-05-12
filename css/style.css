@@ -1,8 +1,28 @@
 html {
   height: 100%;
   width: 100%;
+  font-family: "Open Sans";
+  background-color: #34495e;
 }
 
-ul li {
-  margin-bottom: 8px;
+h1, h2 {
+  color: white;
+}
+
+nav {
+  padding-left: 0;
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration-line: none;
+  background-color: #ecf0f1;
+  color: #34495e;
+  width: 23.5%;
+  text-align: center;
+  font-size: large;
+  padding: 20px 0;
+  margin: 2% 0;
 }
